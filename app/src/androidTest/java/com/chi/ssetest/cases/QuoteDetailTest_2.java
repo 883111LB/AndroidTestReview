@@ -525,7 +525,7 @@ public class QuoteDetailTest_2 {
                             uploadObj_1.put("ratioMainforceMoneyNetInflow5", item.ratioMainforceMoneyNetInflow5);
                             uploadObj_1.put("ratioMainforceMoneyNetInflow10", item.ratioMainforceMoneyNetInflow10);
                             uploadObj_1.put("ratioMainforceMoneyNetInflow20", item.ratioMainforceMoneyNetInflow20);
-                            uploadObj.put("addValue" + item.date + item.time, uploadObj_1);
+                            uploadObj.put("addValue", uploadObj_1);
                         }
                     }
                 } catch (JSONException e) {
